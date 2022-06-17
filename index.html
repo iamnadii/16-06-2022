@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Basics</title>
+    <style>
+      #style {
+        color: red;
+        background-color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="process.php">
+      <h1>Welcome!</h1>
+      <h2>Link</h2>
+      <a href="https://www.google.com" target="_blank">Click for google</a>
+      <br />
+      <br />
+      <h2>Image</h2>
+      <img
+        src="https://images.unsplash.com/photo-1655215271909-f894e3dd3f98?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+        alt="Failed to load"
+        width="200"
+      />
+      <h2>Unordered list</h2>
+      <ul>
+        <li>Home</li>
+        <li>Contact</li>
+        <li>Download</li>
+        <li>Query</li>
+        <li>About</li>
+      </ul>
+      <h2>Ordered list</h2>
+      <ol type="">
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+        <li>Four</li>
+        <li>Five</li>
+      </ol>
+      <h2>Table</h2>
+      <table width="150px">
+        <thead>
+          <tr>
+            <th>First</th>
+            <th>Last</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Muhammad</td>
+            <td>Nadeem</td>
+            <td>muhammadnadeem.1596@gmai.com</td>
+          </tr>
+          <tr>
+            <td>Muhammad</td>
+            <td>Farhan</td>
+            <td>mfarhan.1596@gmail.com</td>
+          </tr>
+          <tr>
+            <td>Ali</td>
+            <td>Imran</td>
+            <td>aliimran@gmail.com</td>
+          </tr>
+        </tbody>
+      </table>
+      <h2>Form and Inputs</h2>
+      <div>
+        <label for="name">Name</label>
+        <input type="text" name="" id="name" placeholder="enter your name" />
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="text" name="" id="email" placeholder="enter your email" />
+      </div>
+      <div>
+        <label for="message">Message</label><br />
+        <textarea
+          name=""
+          id="message"
+          cols="30"
+          rows="3"
+          placeholder="enter your message"
+        ></textarea>
+      </div>
+      <div>
+        <label for="sex">Sex</label>
+        <select name="" id="sex">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+      <div>
+        <label for="age">Age</label>
+        <input type="number" id="age" placeholder="enter your age" />
+      </div>
+      <div>
+        <label for="date">Date of birth</label>
+        <input type="date" id="date" />
+      </div>
+      <div>
+        <label for="member">Membership</label>
+        <input type="radio" name="member" id="member" />Gold
+        <input type="radio" name="member" id="member" />Platinum
+        <input type="radio" name="member" id="member" />Ultra
+      </div>
+      <div>
+        <label for="check">Hobbies</label>
+        <input type="checkbox" name="" id="check" />Gaming
+        <input type="checkbox" name="" id="check" />Movies
+        <input type="checkbox" name="" id="check" />Swimming
+      </div>
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+      <h2>Entites</h2>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit
+        commodi vel illo explicabo, eligendi iure sequi maxime
+        <span id="style"
+          >tempora dolorum omnis sapiente eveniet consectetur nisi ratione
+          possimus inventore.</span
+        >
+        Sapiente, earum doloribus, ad tempore aperiam provident magnam harum
+        aliquid qui delectus hic reiciendis, voluptas dolorem. Reprehenderit,
+        fuga. Error debitis perspiciatis unde incidunt.
+      </p>
+      <div>
+        <p>My name is: &nbsp; &nbsp; Muhammad Nadeem</p>
+      </div>
+      <div>&copy; &reg; &spades; &lt; &gt;</div>
+      <div>
+        <p>To copy something press <kbd>Clrt + C</kbd></p>
+      </div>
+    </form>
+  </body>
+</html>

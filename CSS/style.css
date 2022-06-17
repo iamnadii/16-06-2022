@@ -1,0 +1,110 @@
+/* #box-1 {
+  color: #fff;
+  background-color: #000;
+  border: 5px blue solid;
+  border-radius: 10px;
+  background-image: url(https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=983&q=80);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#box-2 {
+  color: #000;
+  background-color: #000;
+  border: 5px red dotted;
+  border-radius: 10px;
+  background-image: url(https://images.unsplash.com/photo-1494145904049-0dca59b4bbad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80);
+  background-position: top;
+  background-size: cover;
+}
+#box-3 {
+  color: #fff;
+  background-color: #000;
+  border: 5px green dashed;
+  border-radius: 10px;
+  background-image: url(https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=873&q=80);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.box {
+  border: 2px red solid;
+  border-width: 3px;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+#box-4 {
+  margin: 5px;
+}
+#box-5 {
+  margin: 5px;
+}
+ 
+// Float and Align
+* {
+  box-sizing: border-box;
+}
+.clr {
+  clear: both;
+}
+.container {
+  width: 960px;
+  margin: auto;
+}
+.box {
+  border: 2px #333 solid;
+  border-width: 3px;
+  /* padding: 5px */
+/* border-radius: 5px;
+  margin: 5px;
+  background-color: #f4f4f4;
+}
+.box p {
+  text-align: center;
+  padding: 4px;
+}
+.box h3 {
+  padding-left: 10px;
+}
+#box-7 {
+  float: left;
+  width: 65%;
+}
+#box-8 {
+  float: right;
+  width: 32%;
+}
+
+// Button and link styling
+*/
+/* a {
+  color: black;
+} */
+/* a:hover {
+  color: blueviolet;
+} */
+/* a:active {
+  color: red;
+}
+.btn {
+  background-color: #4c6ca0;
+  color: #fff;
+  border: none;
+  padding: 3px 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #446190;
+  text-decoration: none;
+}
+ */
+.nav-1 {
+  background-color: #f4f4f4;
+  width: 20%;
+  list-style: none;
+  font-size: 18px;
+  line-height: 2.4em;
+  /* border-bottom: #333; */
+}
